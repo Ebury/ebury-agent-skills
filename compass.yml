@@ -1,0 +1,35 @@
+# You can find useful information to update this file at the following URL:
+
+# https://www.notion.so/eburydata/Understanding-Compass-the-compass-yml-File-2027699028158088b33bf9540e6e8dfa
+
+
+name: ebury-agent-skills
+description: null
+configVersion: 1
+typeId: LIBRARY
+ownerId: 'ari:cloud:identity::team/c165cad4-4751-4413-96f3-41f3efbcec63'
+slug: ebury-agent-skills
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/Ebury/ebury-agent-skills
+
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: Domain
+    type: single_select
+    value: null
+  - name: Live Date
+    type: text
+    value: null
+  - name: Owner
+    type: user
+    value: null
+  - name: Delegated Owner
+    type: user
+    value: null
